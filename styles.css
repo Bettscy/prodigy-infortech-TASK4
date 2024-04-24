@@ -1,31 +1,36 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif; /* Use Google Font for better typography */
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #3498db, #2980b9); /* Gradient from top to bottom */
-    background-image: url(bg7.jpg); /* Background image */; /* Pattern overlay */
+    background-image: url(bg7.jpg); /* Background image */
     background-size: cover; /* Ensure pattern covers the entire background */
+    color: #fff; /* Set default text color to white */
 }
 
 .container {
-    width: 80%;
+    width: 90%; /* Increase container width for better readability */
     margin: 0 auto;
+    padding: 20px; /* Add padding to create space between content and container edges */
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* Increase transparency for a more subtle effect */
     padding: 20px 0;
+    border-bottom: 2px solid #fff; /* Add a border to separate header from content */
 }
 
 header h1 {
     margin: 0;
+    font-size: 36px; /* Increase font size for header */
+    text-align: center; /* Center align header text */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center; /* Center align navigation links */
 }
 
 nav ul li {
@@ -36,6 +41,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 18px; /* Increase font size for navigation links */
 }
 
 .hero {
@@ -47,6 +53,7 @@ nav ul li a {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a subtle shadow to the image */
 }
 
 section {
@@ -56,38 +63,34 @@ section {
 h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: rgb(233, 230, 65); /* Set heading text color to white */
+    font-size: 28px; /* Increase font size for section headings */
 }
 
 .about-content {
-    max-width: 600px;
+    max-width: 800px; /* Increase maximum width for better readability */
     margin: 0 auto;
     text-align: center;
 }
 
 ul {
-    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 ul li {
-    color: #fff; /* Set text color of list items to white */
     margin-bottom: 10px;
+    font-size: 16px; /* Adjust font size for list items */
 }
 
 .project h3 {
-    color: #ffc0cb; /* Set color of project names to light pink */
+    color: #ff7f50; /* Change project name color to coral */
+    font-size: 24px; /* Increase font size for project names */
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    color: #fff;
-    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Increase transparency for footer */
     padding: 20px 0;
-}
-
-/* Add this CSS to set text color of paragraph elements to white */
-section p {
-    color: #fff;
+    border-top: 2px solid #fff; /* Add a border to separate footer from content */
+    text-align: center;
+    font-size: 16px; /* Adjust font size for footer text */
 }
